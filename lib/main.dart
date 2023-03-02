@@ -391,11 +391,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: MyButton(
                   buttonTapped: (){
                     setState(() {
-                      userInput += ",";
+                      userInput += ".";
                     });
                   },
                   color: Colors.white30,
-                  buttonText: ",",
+                  buttonText: ".",
                   textColor: Colors.white,
                 ),
               ),
